@@ -1,0 +1,16 @@
+.class public final Lcom/google/android/exoplayer2/metadata/MetadataInputBuffer;
+.super Lcom/google/android/exoplayer2/decoder/DecoderInputBuffer;
+.source "MetadataInputBuffer.java"
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    const/4 v0, 0x1
+
+    .line 33
+    invoke-direct {p0, v0}, Lcom/google/android/exoplayer2/decoder/DecoderInputBuffer;-><init>(I)V
+
+    return-void
+.end method
